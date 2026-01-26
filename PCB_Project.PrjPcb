@@ -53,7 +53,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Schematic.SchDoc
+DocumentPath=..\..\..\..\jacqu\Downloads\ul_LM61480Q5RPHRQ1\Altium\LM61480Q5RPHRQ1\LM61480Q5RPHRQ1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -63,13 +63,30 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CJHNTGTK
+DocumentUniqueId=KCBYUULH
 
 [Document2]
+DocumentPath=..\..\..\..\jacqu\altium-library\Celestial Altium Library - altium_library (1).DbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document3]
 DocumentPath=Assembly.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -86,7 +103,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document3]
+[Document4]
 DocumentPath=Documentation.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -103,7 +120,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document5]
 DocumentPath=Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -120,7 +137,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document6]
 DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -137,7 +154,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RJHOKYIJ
 
-[Document6]
+[Document7]
 DocumentPath=ActiveBOM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -154,7 +171,58 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document8]
+DocumentPath=POWER.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XBNQHMGQ
+
+[Document9]
+DocumentPath=TOP.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KWUTCRKR
+
+[Document10]
+DocumentPath=USBC.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZZUODUUO
+
+[Document11]
 DocumentPath=PCB_Project.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -170,6 +238,44 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document12]
+DocumentPath=MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IVLZOIEU
+
+[Document13]
+DocumentPath=..\..\..\..\jacqu\Downloads\ul_LM61480Q5RPHRQ1\Altium\LM61480Q5RPHRQ1\LM61480Q5RPHRQ1.LibPkg
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs\Design Rule Check - PCB1.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=CAGE_CODE
@@ -1302,10 +1408,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Vault Name
+ComponentLibraryIdentifier0=Altium Content Vault
+ComponentDesignItemID0=CMP-0342-00146-2
+ComponentSymbolReference0=TI-TPS40305DRC10-2400X1650TP
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1319,6 +1431,111 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Category
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=ComponentLink1Description
+ParameterUpdate3=1
+ParameterName4=ComponentLink1URL
+ParameterUpdate4=1
+ParameterName5=ComponentLink2Description
+ParameterUpdate5=1
+ParameterName6=ComponentLink2URL
+ParameterUpdate6=1
+ParameterName7=ComponentLink3Description
+ParameterUpdate7=1
+ParameterName8=ComponentLink3URL
+ParameterUpdate8=1
+ParameterName9=ComponentLink4Description
+ParameterUpdate9=1
+ParameterName10=ComponentLink4URL
+ParameterUpdate10=1
+ParameterName11=ComponentLink5Description
+ParameterUpdate11=1
+ParameterName12=ComponentLink5URL
+ParameterUpdate12=1
+ParameterName13=ComponentLink6Description
+ParameterUpdate13=1
+ParameterName14=ComponentLink6URL
+ParameterUpdate14=1
+ParameterName15=ComponentLink7Description
+ParameterUpdate15=1
+ParameterName16=ComponentLink7URL
+ParameterUpdate16=1
+ParameterName17=DatasheetVersion
+ParameterUpdate17=1
+ParameterName18=Description
+ParameterUpdate18=1
+ParameterName19=Duty Cycle(Max)(%)
+ParameterUpdate19=1
+ParameterName20=Eco-Plan
+ParameterUpdate20=1
+ParameterName21=Height
+ParameterUpdate21=1
+ParameterName22=Iout(Max)(A)
+ParameterUpdate22=1
+ParameterName23=Length
+ParameterUpdate23=1
+ParameterName24=Library Reference
+ParameterUpdate24=1
+ParameterName25=Lifecycle Status
+ParameterUpdate25=1
+ParameterName26=Manufacturer
+ParameterUpdate26=1
+ParameterName27=Manufacturer Lifecycle Status
+ParameterUpdate27=1
+ParameterName28=Manufacturer Part Number
+ParameterUpdate28=1
+ParameterName29=Mounting Technology
+ParameterUpdate29=1
+ParameterName30=PackageDescription
+ParameterUpdate30=1
+ParameterName31=PackageReference
+ParameterUpdate31=1
+ParameterName32=PackageVersion
+ParameterUpdate32=1
+ParameterName33=PartNumber
+ParameterUpdate33=1
+ParameterName34=Pins
+ParameterUpdate34=1
+ParameterName35=Pricing
+ParameterUpdate35=1
+ParameterName36=Regulated Outputs(#)
+ParameterUpdate36=1
+ParameterName37=RoHS
+ParameterUpdate37=1
+ParameterName38=Stock
+ParameterUpdate38=1
+ParameterName39=SubFamily
+ParameterUpdate39=1
+ParameterName40=Supplier
+ParameterUpdate40=1
+ParameterName41=Supplier Part Number
+ParameterUpdate41=1
+ParameterName42=Switching Frequency(Max)(kHz)
+ParameterUpdate42=1
+ParameterName43=Synchronous Rectification
+ParameterUpdate43=1
+ParameterName44=Thickness
+ParameterUpdate44=1
+ParameterName45=Topology
+ParameterUpdate45=1
+ParameterName46=Vin(Max)(V)
+ParameterUpdate46=1
+ParameterName47=Vin(Min)(V)
+ParameterUpdate47=1
+ParameterName48=Vout(Max)(V)
+ParameterUpdate48=1
+ParameterName49=Width
+ParameterUpdate49=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=DRC0010J_V
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
